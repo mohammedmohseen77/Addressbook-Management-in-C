@@ -1,5 +1,5 @@
-# Addressbook-Management-in-C
-The Address Book Management System in C is a console-based application designed to store, manage, and organize contact information efficiently. This project allows users to perform essential operations such as adding new contacts, searching existing contacts, editing details, deleting entries, and displaying all saved contacts.
+## Addressbook-Management-in-C
+The **Address Book Management System in C** is a console-based application designed to store, manage, and organize contact information efficiently. This project allows users to perform essential operations such as adding new contacts, searching existing contacts, editing details, deleting entries, and displaying all saved contacts.
 ---
 
 ## 🚀 Features
@@ -24,8 +24,6 @@ The Address Book Management System in C is a console-based application designed 
 
 ```
 
----
-
 ## 🗂️ Project Structure
 
 ```
@@ -44,15 +42,15 @@ AddressBook-Management-System/
 ```
 
 ---
-## 🧠 Concepts Used
+## ⚙️ How It Works
 
-* Conditional statements
-* Loops
-* Functions 
-* Pointers
-* Strings
-* Structures
-* File handling (`fopen`, `fread`, `fwrite`, `fprintf`, `fscanf`)
+```
+* Program starts and loads contacts from file.
+* Displays menu options to the user.
+* User selects an operation: Create / Search / Edit / Delete / List
+* Data is updated in memory.
+* On exit, data is saved back to file.
+```
 
 ---
 ### Compile
@@ -66,6 +64,17 @@ gcc *.c
 ```wsl
 ./a.out
 ```
+
+---
+## 🧠 Concepts Used
+
+* Conditional statements
+* Loops
+* Functions 
+* Pointers
+* Strings
+* Structures
+* File handling (`fopen`, `fread`, `fwrite`, `fprintf`, `fscanf`)
 
 ---
 
